@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Documentt</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Number Guessing Game</h1>
+        <h2>Please 1-9</h2>
+      </div>
+      <form id="gameForm">
+        <div id="playerOne">
+          <h1 style="margin-bottom: 20px; margin-top: 20px">Player One</h1>
+          <div class="item">
+            <div class="main">
+              <input
+                id="playerOneInput"
+                type="password"
+                placeholder="Enter Your Number"
+              />
+              <p class="errorMessage" id="playerOneError"></p>
+            </div>
+            <button id="playerOneBtn">Start</button>
+          </div>
+        </div>
+
+        <div id="playerTwo">
+          <h1 style="margin-bottom: 20px; margin-top: 20px">Player Two</h1>
+          <div class="item">
+            <div>
+              <input
+                id="playerTwoInput"
+                type="text"
+                placeholder="Enter Your Number"
+              />
+              <p class="errorMessage" id="playerTwoError"></p>
+            </div>
+            <button id="playerTwoBtn">Start</button>
+          </div>
+        </div>
+
+        <div id="playerThree">
+          <h1 style="margin-bottom: 20px; margin-top: 20px">Player Three</h1>
+          <div class="item">
+            <div>
+              <input
+                id="playerThreeInput"
+                type="text"
+                placeholder="Enter Your Number"
+              />
+              <p class="errorMessage" id="playerThreeError"></p>
+            </div>
+            <button id="playerThreeBtn">Start</button>
+          </div>
+        </div>
+        
+      </form>
+    </div>
+    
+    <script src="js/apps.js"></script>
+  </body>
+</html>

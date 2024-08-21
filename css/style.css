@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+body{
+    background-color: #D2B48C;
+}
+/* commmon css end */
+
+/* login css start */
+#login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8FBC8F;
+}
+#login form{
+    width: 500px;
+    padding: 50px;
+    background-color: darkcyan;
+    border-radius: 15px;
+    box-shadow: 0px 2px 14px 0px rgba(102,51,51,0.75);
+}
+input{
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid gray;
+    margin: 10px 0;
+}
+button{
+    width: 100%;
+    padding: 8px 0;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    /* border: 1px solid tomato; */
+    background-color: rosybrown;
+    cursor: pointer;
+}
+#login button{
+    margin-top: 15px;
+}
+.errorMessage{
+    font-size: 15px;
+    color:crimson;
+    text-transform: capitalize;
+}
+/* login css end */
+
+/* index page start */
+#gameForm{
+    align-items: center;
+    background-color: #8FBC8F;
+    margin-left: 300px;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 14px 0px rgba(102,51,51,0.75);
+}
+.heading h1{
+    font-size: 20px;
+    text-align: center;
+    color: darkblue;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.heading{
+    width: 500px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    padding: 8px;
+    margin-left: 300px;
+    box-shadow: 0px 2px 14px 0px rgba(102,51,51,0.75);
+}
+.heading{
+    font-size: 12px;
+    text-align: center;
+    color: crimson;
+    margin-top: 150px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.item{
+    display: flex;
+    gap: 20px;
+    /* display: inline-block; */
+}
+.item button{
+    width: auto !important;
+    height: 38px;
+    padding: 0 25px;
+    padding-right: 25px;
+    background-color: chocolate;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#playerOne{
+    transition: .4s;
+}
+#playerTwo{
+    transition: .4s;
+}
+.errorMessagePlayer{
+    font-size: 15px;
+    color:crimson;
+    text-transform: capitalize;
+}
+#win{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#win img{
+    height: 500px;
+}
+
+/* index page page start */
